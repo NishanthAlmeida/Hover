@@ -243,6 +243,16 @@ h3 {
   font-size: .625em;
 }
 
+
+.check{
+	display: inline-block;
+	margin:5px;
+	padding:10px;
+	
+}
+
+
+
 @-webkit-keyframes circle {
   50% {
     -webkit-transform: scale(1.26923077);
