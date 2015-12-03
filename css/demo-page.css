@@ -244,12 +244,36 @@ h3 {
 }
 
 
+
+
+
+
+
+
+
+
+
+
 .check{
 	display: inline-block;
 	margin:5px;
 	padding:10px;
-	
+	transform: rotate(0, 20, 30);
 }
+
+@keyframes checkanimate{ 
+	from{
+		transform:rotate(0, 20,30);
+	}
+	20%{
+		transform:rotate(20,10,30);
+	}
+	40%{
+		transform:rotate();
+	}
+}
+
+
 
 
 
